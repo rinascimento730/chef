@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant/knife":{"guestpath":"/vagrant/knife","hostpath":"/Users/bob/knife","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/bob/vagrant/chef","disabled":false}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/bob/vagrant/chef","disabled":false}}}
