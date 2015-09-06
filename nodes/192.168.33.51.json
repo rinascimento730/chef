@@ -1,0 +1,11 @@
+{
+  "run_list": [
+    "recipe[dstat]",
+    "recipe[apache]",
+    //"recipe[iptables]",
+    "recipe[mysql]"
+  ],
+  "automatic": {
+    "ipaddress": "192.168.33.51"
+  }
+}
