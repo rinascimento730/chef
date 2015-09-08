@@ -3,7 +3,8 @@
     "recipe[dstat]",
     "recipe[apache]",
     //"recipe[iptables]",
-    "recipe[mysql]"
+    "recipe[mysql]",
+    "recipe[git]"
   ],
   "automatic": {
     "ipaddress": "webdb"
