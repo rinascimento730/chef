@@ -1,10 +1,21 @@
 {
+  "apache": {
+  		// "listen_port": [ 8080 ],
+  		// "keepalive": "off",
+  		"docroot_dir": "/home/vagrant/htdocs"
+  	},
   "run_list": [
+    "recipe[yum-epel]",
+    "recipe[yum-remi]",
     "recipe[dstat]",
     "recipe[apache]",
+    // "recipe[apache2]",
     //"recipe[iptables]",
     "recipe[mysql]",
-    "recipe[git]"
+    "recipe[git]",
+    "recipe[solr]",
+    "recipe[zookeeper]"
+    // "recipe[spark]"
   ],
   "automatic": {
     "ipaddress": "webdb"

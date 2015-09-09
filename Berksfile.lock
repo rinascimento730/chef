@@ -1,0 +1,33 @@
+DEPENDENCIES
+  apache2
+  solr
+  spark
+  yum-epel
+  yum-remi
+  zookeeper
+
+GRAPH
+  apache2 (3.1.0)
+  apt (2.8.2)
+  build-essential (2.2.3)
+  java (1.35.0)
+  magic (1.1.13)
+  packagecloud (0.1.0)
+  runit (1.7.2)
+    packagecloud (>= 0.0.0)
+  solr (0.5.0)
+    apt (>= 0.0.0)
+    java (>= 0.0.0)
+  spark (1.0.1)
+    java (>= 0.0.0)
+  yum (3.7.1)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
+  yum-remi (0.1.0)
+    yum (>= 0.0.0)
+  zookeeper (2.12.0)
+    apt (>= 0.0.0)
+    build-essential (>= 2.0.2)
+    java (>= 0.0.0)
+    magic (~> 1.1)
+    runit (>= 0.0.0)
